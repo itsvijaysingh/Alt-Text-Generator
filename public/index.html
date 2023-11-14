@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Vijay Singh" />
+    <meta name="description" content="Generate SEO-friendly alt text for images by using Artificial Intelligence (AI)." />
+    <meta name="keywords" content="alt text generator, image accessibility, image SEO, image description, alternative text" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png" />
+
+    <!-- Open Graph (OG) metadata -->
+    <meta property="og:title" content="AltText.co - Image Alt Text Generator" />
+    <meta property="og:description" content="Automatically generate alt text for images with AI and Computer Vision to enhance image accessibility, SEO, and user experience." />
+    <meta property="og:image" content="/images/banner.webp" />
+    <meta property="og:url" content="https://alttext.co" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card metadata -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@_itsvj" />
+    <meta name="twitter:title" content="AltText.co - Image Alt Text Generator" />
+    <meta name="twitter:description" content="Easily create alt text for images with AltText.co by using AI. Enhance image accessibility, SEO, and user experience." />
+    <meta name="twitter:image" content="/images/banner.webp" />
+
+    <title>Alt Text Generator - 100% Free, No Login</title>
+
+    <!-- Resources -->
+    <link rel="stylesheet" type="text/css" href="style.css" as="style" onload="this.rel='stylesheet'" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;800&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;800&display=swap" media="print" onload="this.media='all'" type="text/css" style="font-display: swap;">
+
+  </head>
+  <body>
+    <header>
+      <div class="heading text-center">
+        <h1>Alt Text Generator</h1>
+        <p>Generate SEO-friendly alt text for any images using AI.</p>
+      </div>
+    </header>
+    <div class="tool-container">
+      <div class="tool text-center">
+        <div class="upload">
+          <label for="imageInput" class="upload-label">
+            <img src="/images/black-cloud-arrow-up.svg" class="upload-icon" alt="Upload Images"> Click to Upload </label>
+          <input type="file" id="imageInput" accept="image/*" class="upload-input">
+        </div>
+        <div class="button-container">
+          <button id="generateButton" disabled=""> Generate Alt Texts </button>
+        </div>
+        <div class="generatedAltTexts"></div>
+      </div>
+    </div>
+    <script src="script.js" type="module" defer></script>
+  </body>
+</html>

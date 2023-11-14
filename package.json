@@ -1,0 +1,25 @@
+{
+  "name": "alt-text-generator",
+  "version": "1.0.0",
+  "description": "Alt Text Generator Tool - Easily create alt text for images with AI",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "alt text",
+    "alt text generator",
+    "AI",
+    "image accessibility",
+    "SEO",
+    "alternative text"
+  ],
+  "author": "Vijay Singh",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.0.6",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.1",
+    "node-fetch": "^3.2.6"
+  }
+}
